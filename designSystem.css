@@ -1,0 +1,25 @@
+*{
+    margin: 00;
+    padding: 00;
+    box-sizing: border-box;
+}
+
+:root{
+ 
+  --fond:#F0F4EF;
+  
+    /*Combinaison 1*/
+    --white: #fff;
+   --vert:  #4CAF50;
+   --Police_Principale:'Open Sans' ;
+   --Police_titre: 'Lato';
+   
+   /*Combiaison 2 */
+
+   --white: #fff;
+   --marron:  #8B4513;
+   --Police_Principale:'Roboto' ;
+ --Police_titre: 'Montserrat';
+   
+ 
+}
