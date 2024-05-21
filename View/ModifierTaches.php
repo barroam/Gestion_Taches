@@ -1,5 +1,5 @@
 <?php
- require "../config.php";
+
  require "../Model/Taches_model.php";
  $tache = new taches($connexion,"","","","","","","");
     $resultat = $tache->AffichesTaches();
@@ -21,7 +21,8 @@
     <h1><a  class="titre_header" href="index.php">Taku Liguey</a> </h1>
      <select class="nav-select" onchange="window.location.href = this.value;">
      <option value="">Role</option>
-        <option value="Accueil.php">Visiteur</option>
+     <option value="../index.php">Visiteur</option>
+         <!--attention cette index est le routeur différent de l'index si dessous -->
         <option value="index.php">Employer</option>
      </select>
   </header>

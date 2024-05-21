@@ -10,15 +10,15 @@
 
 <body>
   <header class="navbar">
-    <img  class="logo_nav" src="../img/13.png" alt="logo">
+    <img  class="logo_nav" src="img/13.png" alt="logo">
      
-    <a class="nav-link" href="Accueil.php">Accueil</a>
-     <a class="nav-link"  href="Equipe.php">Equipe</a>
-     <a class="nav-link"  href="service.php">Service</a>
+    <a class="nav-link" href="../index.php">Accueil</a>
+     <a class="nav-link"  href="View/Equipe.php">Equipe</a>
+     <a class="nav-link"  href="View/service.php">Service</a>
      <select class="nav-select" onchange="window.location.href = this.value;">
      <option value="">Role</option>
-        <option value="Accueil.php">Visiteur</option>
-        <option value="connexion.php">Employer</option>
+        <option value="../index.php">Visiteur</option>
+        <option value="View/connexion.php">Employer</option>
      </select>
   </header>
 </body>
